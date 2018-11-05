@@ -1,0 +1,29 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px;
+}
+
+#question-input {
+  margin-bottom: 10px;
+}
+
+.card{
+  border: 1px solid rgba(0,0,0,0.1);
+  border-left: 4px solid rgba(0,0,0,0.1);
+  padding: 10px;
+}
+
+#back-btn {
+  text-align: center;
+  margin: 20px;
+}

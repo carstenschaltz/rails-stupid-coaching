@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <div class="card">
+        <p><strong>You asked:</strong><br><%= @question %></p>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="card">
+        <p><strong>Coach says:</strong><br><%= @response %></p>
+      </div>
+    </div>
+  </div>
+  <div id="back-btn">
+    <%= link_to 'Ask another question', ask_path, class:'btn btn-primary' %>
+  </div>
+</div>
+
+
